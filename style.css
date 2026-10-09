@@ -39,14 +39,13 @@ em { color:var(--gold); font-style:normal; }
 .button-primary { color:#fff; background:linear-gradient(135deg,#0a79d2,#034b9f); box-shadow:0 9px 18px rgba(7,83,162,.24); }
 .button-secondary { border:1px solid #81a9d2; background:white; color:#174980; }
 
-.guide { min-height:114px; position:relative; z-index:2; display:grid; grid-template-columns:1.22fr 1fr 28px 1fr 28px 1fr; align-items:center; gap:12px; margin-top:-2px; padding:22px 34px; border-radius:18px; background:white; box-shadow:var(--shadow); }
+.guide { min-height:114px; position:relative; z-index:2; display:grid; grid-template-columns:1.22fr repeat(3,1fr); align-items:center; gap:12px; margin-top:-2px; padding:22px 34px; border-radius:18px; background:white; box-shadow:var(--shadow); }
 .guide-title h2 { margin:0; color:var(--navy); font-family:"Lalezar"; font-size:29px; font-weight:400; }
 .guide-title p { margin:0; font-size:12px; }
 .guide-step { position:relative; display:flex; align-items:center; gap:10px; }
 .guide-step img { width:50px; height:50px; object-fit:contain; background:#e8f5ff; padding:8px; border-radius:50%; }
 .guide-step h3 { margin:0; font-size:12px; line-height:1.95; font-weight:500; }
 .step-number { position:absolute; z-index:1; top:-8px; right:-10px; display:grid; place-items:center; width:30px; height:30px; border-radius:50%; color:#0763bb; background:#d8eeff; font-family:"Lalezar"; font-size:20px; }
-.guide-arrow { color:#6fa8e5; font-family:Arial; font-size:38px; text-align:center; }
 
 .introduction { position:relative; display:flex; min-height:238px; overflow:hidden; margin-top:16px; border-radius:18px; background:linear-gradient(115deg,#e4f5ff,#f5fbff); box-shadow:0 8px 24px rgba(38,115,177,.1); }
 .introduction::before { content:""; position:absolute; inset:0; opacity:.38; background:radial-gradient(circle at 18% 20%,#b9e0ff 0 26px,transparent 27px),radial-gradient(circle at 7% 86%,#b9e0ff 0 34px,transparent 35px); pointer-events:none; }
